@@ -1,0 +1,21 @@
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/tomnomnom/assetfinder@latest
+go install -v github.com/tomnomnom/waybackurls@latest
+go install -v github.com/tomnomnom/httprobe@latest
+go install -v github.com/tomnomnom/meg@latest
+go install -v github.com/LukaSikic/subzy@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+go install -v github.com/Emoe/kxss@latest
+go install -v github.com/KathanP19/Gxss@latest
+go install -v github.com/ffuf/ffuf/v2@latest
+go install -v github.com/tomnomnom/unfurl@latest
+
+
+sudo apt-get install sublist3r
+sudo apt-get install dirsearch
+sudo apt-get install arjun
+
+git clone https://github.com/guelfoweb/knock.git; cd knock; pip3 install -r requirements.txt
+git clone https://github.com/devanshbatham/ParamSpider; cd ParamSpider; pip3 install -r requirements.txt
+git clone https://github.com/s0md3v/XSStrike.git
