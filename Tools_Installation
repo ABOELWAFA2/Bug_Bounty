@@ -19,3 +19,9 @@ sudo apt-get install arjun
 git clone https://github.com/guelfoweb/knock.git; cd knock; pip3 install -r requirements.txt
 git clone https://github.com/devanshbatham/ParamSpider; cd ParamSpider; pip3 install -r requirements.txt
 git clone https://github.com/s0md3v/XSStrike.git
+
+{{**}}A small trick to make python tools run from anywhere in the system{{**}}
+sudo nano ~/.bashrc
+alias knockpy='python3 /home/kemo/tools/knock/knockpy.py'
+alias paramspider='python3 /home/kemo/tools/ParamSpider/paramspider.py'
+alias xsstrike='python3 /home/kemo/tools/XSStrike/xsstrike.py'
